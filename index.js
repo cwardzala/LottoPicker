@@ -40,4 +40,5 @@ if (program.list) {
     }
 }
 
+module.exports = program;
 
