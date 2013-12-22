@@ -2,11 +2,13 @@
     "name": "lottopicker",
     "version": "0.1.0",
     "description": "Lottery number picker for various games.",
-    "main": "index.js",
+    "main": "lib",
+    "preferGlobal": "true",
+    "bin": "./lib/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Cameron Wardzala",
+    "author": "Cameron Wardzala <cwardzala@gmail.com>",
     "license": "BSD-2-Clause",
     "dependencies": {
         "commander": "~2.1.0",
